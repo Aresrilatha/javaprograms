@@ -19,8 +19,14 @@ public class ArrayListEx {
 		lst.add("Hello 11");
 		lst.add("Hello 12");
 		lst.add("Hello 13");
+		lst.remove(5);
 		//lst.add(45);
 		System.out.println(lst);
+		
+		//or
+		for(int i=0;i<lst.size();i++) {
+			System.out.println(lst.get(i));
+		}
 	}
 
 }
