@@ -20,6 +20,9 @@ public class ArrayListEx {
 		lst.add("Hello 12");
 		lst.add("Hello 13");
 		lst.remove(5);
+		lst.add(3, "hari");
+		System.out.println(lst.get(7));
+		System.out.println(lst.hashCode());
 		//lst.add(45);
 		System.out.println(lst);
 		
